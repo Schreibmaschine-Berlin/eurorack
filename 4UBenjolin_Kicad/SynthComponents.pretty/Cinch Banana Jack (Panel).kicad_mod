@@ -1,0 +1,13 @@
+(module "Cinch Banana Jack (Panel)" (layer F.Cu) (tedit 5D265EF7)
+  (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_arc (start 0 0) (end -3.174999 2.697479) (angle -99.3) (layer Edge.Cuts) (width 0.15))
+  (fp_arc (start 0 0) (end 3.174999 -2.697479) (angle -99.3) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start -3.175 -2.69748) (end -3.175 2.69748) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start 3.175 -2.69748) (end 3.175 2.69748) (layer Edge.Cuts) (width 0.15))
+  (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
+)

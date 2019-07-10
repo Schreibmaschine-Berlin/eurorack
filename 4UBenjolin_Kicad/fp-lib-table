@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SynthComponents)(type KiCad)(uri ${KIPRJMOD}/SynthComponents.pretty)(options "")(descr ""))
+)
