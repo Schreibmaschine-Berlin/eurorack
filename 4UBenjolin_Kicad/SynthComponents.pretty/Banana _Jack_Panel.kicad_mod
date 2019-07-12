@@ -1,4 +1,4 @@
-(module "Cinch Banana Jack (Panel)" (layer F.Cu) (tedit 5D265EF7)
+(module "Banana _Jack_Panel" (layer F.Cu) (tedit 5D265EF7)
   (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
