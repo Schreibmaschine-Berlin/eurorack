@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Synth_Components)(type Legacy)(uri C:/Users/Zardoz/Documents/Git_Eurorack/4UBenjolin_Kicad/Synth_Components.lib)(options "")(descr ""))
+  (lib (name mc78l09_sot89)(type Legacy)(uri C:/Users/Zardoz/Documents/Git_Eurorack/4UBenjolin_Kicad/Synth_Symbols/mc78l09_sot89.lib)(options "")(descr ""))
+  (lib (name mc79l09_sot89)(type Legacy)(uri C:/Users/Zardoz/Documents/Git_Eurorack/4UBenjolin_Kicad/Synth_Symbols/mc79l09_sot89.lib)(options "")(descr ""))
+  (lib (name 79L09)(type Legacy)(uri ${KIPRJMOD}/Synth_Symbols/79L09.lib)(options "")(descr ""))
+)
