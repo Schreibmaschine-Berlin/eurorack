@@ -1443,7 +1443,7 @@
   )
 
   (module Diode_THT:D_A-405_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE50CD5) (tstamp 5D2B6AC9)
-    (at 360.459072 84.584788)
+    (at 156.464 118.364)
     (descr "Diode, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "Diode A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5C2E1E73)
@@ -1549,7 +1549,7 @@
   )
 
   (module Diode_THT:D_A-405_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE50CD5) (tstamp 5D2B6B05)
-    (at 334.459072 81.754788)
+    (at 156.972 111.252)
     (descr "Diode, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "Diode A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5C2E1E33)
@@ -1761,7 +1761,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 5D2B6C95)
-    (at 353.297701 94.226159)
+    (at 332.232 105.664)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
     (path /5C2F3786)
@@ -1802,7 +1802,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 5D2B6CAB)
-    (at 322.86956 145.1356)
+    (at 156.972 128.016)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
     (path /5C2EE469)
@@ -1843,7 +1843,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 5D2B6CC1)
-    (at 353.297701 95.736159)
+    (at 156.972 138.176)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
     (path /5C2F2EAF)
@@ -1884,7 +1884,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 5D2B6CD7)
-    (at 353.647701 109.086159)
+    (at 156.972 143.256)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
     (path /5C2F2746)
@@ -2212,7 +2212,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 5D2B6D87)
-    (at 377.647701 89.216159)
+    (at 156.972 133.096)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
     (path /5C2E999C)
