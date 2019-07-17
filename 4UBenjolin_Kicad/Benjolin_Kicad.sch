@@ -1451,23 +1451,6 @@ Connection ~ 4850 6900
 Wire Wire Line
 	5450 6900 5500 6900
 Connection ~ 5450 6900
-Text Label 8300 2950 0    50   ~ 0
-Red+12
-$Comp
-L Connector:Conn_01x03_Female J1000
-U 1 1 5C5E4D08
-P 8300 2950
-F 0 "J1000" H 8150 3150 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8100 2800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8300 2950 50  0001 C CNN
-F 3 "~" H 8300 2950 50  0001 C CNN
-	1    8300 2950
-	1    0    0    -1  
-$EndComp
-Text Label 8300 2850 0    50   ~ 0
-BlackGND
-Text Label 8300 3050 0    50   ~ 0
-White-12
 Text GLabel 6650 3300 0    50   Input ~ 0
 +12V
 Text GLabel 6650 3600 0    50   Input ~ 0
@@ -2069,8 +2052,6 @@ Wire Wire Line
 	6750 3300 7150 3300
 Wire Wire Line
 	6750 3600 7150 3600
-Wire Wire Line
-	8200 2800 8200 2750
 $Comp
 L Device:R_POT P_Rungler_A1
 U 1 1 5C2F9F3A
@@ -2258,7 +2239,7 @@ $EndComp
 Text GLabel 14950 4350 2    50   Input ~ 0
 P10R2B
 Text GLabel 14800 5000 1    50   Input ~ 0
-P9R3F
+P9R3B
 $Comp
 L power:GND #PWR0106
 U 1 1 5C468047
