@@ -2239,7 +2239,7 @@ $EndComp
 Text GLabel 14950 4350 2    50   Input ~ 0
 P10R2B
 Text GLabel 14800 5000 1    50   Input ~ 0
-P9R3F
+P9R3B
 $Comp
 L power:GND #PWR0106
 U 1 1 5C468047
