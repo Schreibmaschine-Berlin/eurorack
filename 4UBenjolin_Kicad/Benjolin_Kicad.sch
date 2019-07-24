@@ -2034,7 +2034,7 @@ U 1 1 5D623AC2
 P 7350 3400
 F 0 "J1" H 7322 3374 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7600 3100 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Micro-Latch_53254-0470_1x04_P2.00mm_Horizontal" H 7350 3400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7350 3400 50  0001 C CNN
 F 3 "~" H 7350 3400 50  0001 C CNN
 	1    7350 3400
 	-1   0    0    -1  

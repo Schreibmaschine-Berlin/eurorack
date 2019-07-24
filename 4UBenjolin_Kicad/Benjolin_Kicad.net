@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Zardoz\Documents\Git_Eurorack\4UBenjolin_Kicad\Benjolin_Kicad.sch)
-    (date "7/17/2019 10:32:41 PM")
+    (date "7/24/2019 11:45:03 PM")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -665,7 +665,7 @@
       (tstamp 5D2B5CC4))
     (comp (ref J1)
       (value Conn_01x04_Male)
-      (footprint Connector_Molex:Molex_Micro-Latch_53254-0470_1x04_P2.00mm_Horizontal)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x04_Male) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
