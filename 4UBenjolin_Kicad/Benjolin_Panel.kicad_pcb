@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-1)-1")
 
   (general
     (thickness 1.6)
@@ -110,7 +110,7 @@
     (uvia_drill 0.1)
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D3096B0)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D3096B0)
     (at 159.385 52.3875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -118,14 +118,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309740)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309740)
     (at 133.985 90.4875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -133,14 +130,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309780)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309780)
     (at 108.585 109.5375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -148,14 +142,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D3096F0)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D3096F0)
     (at 83.185 71.4375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -163,14 +154,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309760)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309760)
     (at 83.185 90.4875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -178,14 +166,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309790)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309790)
     (at 133.985 109.5375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -193,14 +178,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309730)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309730)
     (at 159.385 90.4875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -208,14 +190,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D3097A0)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D3097A0)
     (at 159.385 109.5375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -223,14 +202,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309770)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309770)
     (at 83.185 109.5375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -238,14 +214,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D30915E)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D30915E)
     (at 159.385 33.3375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -253,14 +226,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309720)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309720)
     (at 159.385 71.4375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -268,14 +238,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309750)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309750)
     (at 108.585 90.4875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -283,14 +250,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309710)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309710)
     (at 133.985 71.4375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -298,14 +262,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D3096E0)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D3096E0)
     (at 83.185 52.3875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -313,14 +274,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D309700)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D309700)
     (at 108.585 71.4375)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -328,14 +286,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D3096D0)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D3096D0)
     (at 108.585 52.3875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -343,14 +298,11 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
   )
 
-  (module "SynthComponents:Banana _Jack_Panel" (layer F.Cu) (tedit 5D2FAFB4) (tstamp 5D3096C0)
+  (module "SynthComponents:Banana _Jack_Panel_Round" (layer F.Cu) (tedit 5D5D45CC) (tstamp 5D3096C0)
     (at 133.985 52.3875)
     (fp_text reference REF** (at 0.0127 1.7399) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -358,11 +310,8 @@
     (fp_text value "Banana Jack" (at 0.02286 -6.69544) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 4.1656 0) (layer Edge.Cuts) (width 0.15))
     (fp_circle (center 0 0) (end 5.8166 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3.174999 -2.730499) (end 3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_line (start -3.175 -2.7305) (end -3.175 2.7305) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end 3.174999 -2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
-    (fp_arc (start 0 0) (end -3.174999 2.730499) (angle -98.6) (layer Edge.Cuts) (width 0.0254))
   )
 
   (dimension 12.7 (width 0.15) (layer Dwgs.User)
