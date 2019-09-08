@@ -2287,11 +2287,11 @@ F 1 "TL071" H 8800 5350 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 8700 5600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 5700 50  0001 C CNN
 	1    8650 5550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-Text GLabel 8550 6000 3    50   Input ~ 0
-V-
 Text GLabel 8550 5250 1    50   Input ~ 0
+V-
+Text GLabel 8550 6000 3    50   Input ~ 0
 V+
 Text Notes 7250 6450 0    50   ~ 0
 Mixer: http://www.elby-designs.com/webtek/cgs/serge/cgs90/cgs90_phaser.html
@@ -2575,7 +2575,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 5850 8550 6000
 Text GLabel 9050 6000 2    50   Input ~ 0
-V+
+V-
 Text Notes 8050 4300 0    118  ~ 0
 Serge Mixer Module
 Wire Notes Line
@@ -2676,6 +2676,29 @@ F 1 "10k" V 15100 6400 50  0000 R CNN
 F 2 "SynthComponents:Potentiometer_Alps_RK09K_Single_Vertical" H 15100 6350 50  0001 C CNN
 F 3 "~" H 15100 6350 50  0001 C CNN
 	1    15100 6350
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 5250 0    50   ~ 0
+BACKWARDS OPAMP (fixed)\n
+Text Notes 3850 7100 1    50   ~ 0
+CHECK Q PINS on 4021
+Text Notes 7300 1750 0    50   ~ 0
+Missing\nV- Output\n(fixed)
+Text GLabel 7600 1950 1    50   Input ~ 0
+V-
+Text Notes 9100 5750 0    50   ~ 0
+Installed tl072 
+Text Notes 3750 6150 0    50   ~ 0
+4021 unpowered
+$Comp
+L 4xxx_IEEE:4021 U?
+U 1 1 5D7926F2
+P 6450 5650
+F 0 "U?" H 6450 6206 50  0000 C CNN
+F 1 "4021" H 6450 6115 50  0000 C CNN
+F 2 "" H 6450 5650 50  0001 C CNN
+F 3 "" H 6450 5650 50  0001 C CNN
+	1    6450 5650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
