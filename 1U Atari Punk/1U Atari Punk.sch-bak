@@ -711,12 +711,12 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5F63280D
-P 7750 3100
-F 0 "C?" H 7865 3146 50  0000 L CNN
-F 1 "0.1uf" H 7865 3055 50  0000 L CNN
-F 2 "" H 7788 2950 50  0001 C CNN
-F 3 "~" H 7750 3100 50  0001 C CNN
-	1    7750 3100
+P 7750 3200
+F 0 "C?" H 7865 3246 50  0000 L CNN
+F 1 "0.1uf" H 7865 3155 50  0000 L CNN
+F 2 "" H 7788 3050 50  0001 C CNN
+F 3 "~" H 7750 3200 50  0001 C CNN
+	1    7750 3200
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -855,14 +855,12 @@ Wire Wire Line
 	8900 2650 8750 2650
 Connection ~ 8900 2800
 Wire Wire Line
-	8400 3250 7750 3250
+	8400 3350 7750 3350
 Wire Wire Line
-	7750 3250 6850 3250
-Wire Wire Line
-	6850 3250 6850 2350
+	7750 3350 6850 3350
 Wire Wire Line
 	6850 2350 7250 2350
-Connection ~ 7750 3250
+Connection ~ 7750 3350
 $Comp
 L power:+9V #PWR?
 U 1 1 5F7B1971
@@ -942,8 +940,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 2200 9600 2200
 Wire Wire Line
-	8400 2800 8400 3250
-Wire Wire Line
 	8400 2450 8600 2450
 Wire Wire Line
 	8400 2800 8600 2800
@@ -953,4 +949,26 @@ Text Notes 7500 1750 0    157  ~ 31
 Stepped Tone Generator
 Wire Notes Line
 	6750 3450 11200 3450
+Wire Wire Line
+	8400 2800 8400 3350
+Wire Wire Line
+	7750 3050 7750 3000
+Wire Wire Line
+	6850 2350 6850 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5F640AC9
+P 7850 3000
+F 0 "#PWR?" H 7850 2750 50  0001 C CNN
+F 1 "GND" H 7855 2827 50  0000 C CNN
+F 2 "" H 7850 3000 50  0001 C CNN
+F 3 "" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 3000 7750 3000
+Connection ~ 7750 3000
+Wire Wire Line
+	7750 3000 7750 2950
 $EndSCHEMATC

@@ -1,0 +1,97 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 550  850  0    50   ~ 0
+8 inputs\nAll logical outputs\nRelated to number of jacks pluged in, in any order\n(and, or, nand, nor, xor, xnor, majority, exactly 1,2,3,4,5,6,7,8
+Text GLabel 1450 1750 0    50   Input ~ 0
+InputJack1
+Text GLabel 1450 1850 0    50   Input ~ 0
+InputJack2
+Text GLabel 1450 1950 0    50   Input ~ 0
+InputJack3
+Text GLabel 1450 2050 0    50   Input ~ 0
+InputJack4
+Text GLabel 1450 2150 0    50   Input ~ 0
+InputJack5
+Text GLabel 1450 2250 0    50   Input ~ 0
+InputJack6
+Text GLabel 1450 2350 0    50   Input ~ 0
+InputJack7
+Text GLabel 1450 2450 0    50   Input ~ 0
+InputJack8
+Text GLabel 1900 1750 2    50   Input ~ 0
+Input1
+Text GLabel 1900 1850 2    50   Input ~ 0
+Input2
+Text GLabel 1900 1950 2    50   Input ~ 0
+Input3
+Text GLabel 1900 2050 2    50   Input ~ 0
+Input4
+Text GLabel 1900 2150 2    50   Input ~ 0
+Input5
+Text GLabel 1900 2250 2    50   Input ~ 0
+Input6
+Text GLabel 1900 2350 2    50   Input ~ 0
+Input7
+Text GLabel 1900 2450 2    50   Input ~ 0
+Input8
+Text Notes 700  1550 0    118  ~ 24
+Input Sorting Module
+Text Notes 700  2850 0    50   ~ 0
+Route all the inputs that are plugged in to the first available input flag
+Text GLabel 2250 1750 2    50   Input ~ 0
+Input1Used
+Text GLabel 2250 1850 2    50   Input ~ 0
+Input2Used
+Wire Wire Line
+	1450 2150 1650 2150
+Wire Wire Line
+	1650 2150 1650 1750
+Wire Wire Line
+	1650 1750 1900 1750
+Text Notes 3350 900  0    118  ~ 24
+AND Logic
+Text Notes 5200 900  0    118  ~ 24
+OR Logic
+Text Notes 7500 950  0    118  ~ 24
+XOR Logic
+Text Notes 6900 1350 0    50   ~ 0
+XOR gate is a digital logic gate \nthat gives a true output when \nthe number of true inputs is odd. 
+Text Notes 4950 2750 0    118  ~ 24
+NAND/NOR/XNOR
+Text Notes 5800 4300 0    118  ~ 24
+Majority
+Text Notes 7500 2750 0    118  ~ 24
+Exactly 1-8
+Text Notes 550  1100 0    50   ~ 0
+Each output could be a seperate expander module
+Text Notes 7400 4250 0    118  ~ 24
+CV Outputs
+Text Notes 7500 4400 0    50   ~ 0
+Sum of all inputs /8 
+Text Notes 8850 900  0    118  ~ 24
+Even/Odd\n
+$Comp
+L 4xxx_IEEE:4078 U?
+U 1 1 5F647F1C
+P 5700 1800
+F 0 "U?" H 5700 2416 50  0000 C CNN
+F 1 "4078" H 5700 2325 50  0000 C CNN
+F 2 "" H 5700 1800 50  0001 C CNN
+F 3 "" H 5700 1800 50  0001 C CNN
+	1    5700 1800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
