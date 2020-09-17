@@ -1,0 +1,423 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F70487E
+P 1200 1050
+F 0 "J?" H 1207 1475 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 1207 1384 50  0000 C CNN
+F 2 "" H 1150 1250 50  0001 C CNN
+F 3 "~" H 1150 1250 50  0001 C CNN
+	1    1200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F706039
+P 1200 1850
+F 0 "J?" H 1207 2275 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 1207 2184 50  0000 C CNN
+F 2 "" H 1150 2050 50  0001 C CNN
+F 3 "~" H 1150 2050 50  0001 C CNN
+	1    1200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F706BEB
+P 2000 900
+F 0 "J?" H 2007 1325 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 2007 1234 50  0000 C CNN
+F 2 "" H 1950 1100 50  0001 C CNN
+F 3 "~" H 1950 1100 50  0001 C CNN
+	1    2000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F706BF1
+P 2000 1700
+F 0 "J?" H 2007 2125 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 2007 2034 50  0000 C CNN
+F 2 "" H 1950 1900 50  0001 C CNN
+F 3 "~" H 1950 1900 50  0001 C CNN
+	1    2000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F709727
+P 1200 2600
+F 0 "J?" H 1207 3025 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 1207 2934 50  0000 C CNN
+F 2 "" H 1150 2800 50  0001 C CNN
+F 3 "~" H 1150 2800 50  0001 C CNN
+	1    1200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F70972D
+P 1200 3400
+F 0 "J?" H 1207 3825 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 1207 3734 50  0000 C CNN
+F 2 "" H 1150 3600 50  0001 C CNN
+F 3 "~" H 1150 3600 50  0001 C CNN
+	1    1200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F709733
+P 2000 2450
+F 0 "J?" H 2007 2875 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 2007 2784 50  0000 C CNN
+F 2 "" H 1950 2650 50  0001 C CNN
+F 3 "~" H 1950 2650 50  0001 C CNN
+	1    2000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Dual_Switch J?
+U 1 1 5F709739
+P 2000 3250
+F 0 "J?" H 2007 3675 50  0000 C CNN
+F 1 "AudioJack2_Dual_Switch" H 2007 3584 50  0000 C CNN
+F 2 "" H 1950 3450 50  0001 C CNN
+F 3 "~" H 1950 3450 50  0001 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F709892
+P 0 1550
+F 0 "C?" H 115 1596 50  0000 L CNN
+F 1 "100n" H 115 1505 50  0000 L CNN
+F 2 "" H 38  1400 50  0001 C CNN
+F 3 "~" H 0   1550 50  0001 C CNN
+	1    0    1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F70B3DD
+P 450 1550
+F 0 "C?" H 565 1596 50  0000 L CNN
+F 1 "100n" H 565 1505 50  0000 L CNN
+F 2 "" H 488 1400 50  0001 C CNN
+F 3 "~" H 450 1550 50  0001 C CNN
+	1    450  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5F70B4AB
+P -50 2050
+F 0 "C?" H 68  2096 50  0000 L CNN
+F 1 "10uf" H 68  2005 50  0000 L CNN
+F 2 "" H -12 1900 50  0001 C CNN
+F 3 "~" H -50 2050 50  0001 C CNN
+	1    -50  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5F70D369
+P 400 2050
+F 0 "C?" H 518 2096 50  0000 L CNN
+F 1 "10uf" H 518 2005 50  0000 L CNN
+F 2 "" H 438 1900 50  0001 C CNN
+F 3 "~" H 400 2050 50  0001 C CNN
+	1    400  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT42 D?
+U 1 1 5F70DBFD
+P 3350 1000
+F 0 "D?" H 3350 783 50  0000 C CNN
+F 1 "BAT42" H 3350 874 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3350 825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 3350 1000 50  0001 C CNN
+	1    3350 1000
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:BAT42 D?
+U 1 1 5F70F1C7
+P 450 2650
+F 0 "D?" H 450 2867 50  0000 C CNN
+F 1 "BAT42" H 450 2776 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 450 2475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 450 2650 50  0001 C CNN
+	1    450  2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F70F2E3
+P -100 3100
+F 0 "D?" H -107 3317 50  0000 C CNN
+F 1 "LED" H -107 3226 50  0000 C CNN
+F 2 "" H -100 3100 50  0001 C CNN
+F 3 "~" H -100 3100 50  0001 C CNN
+	1    -100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F7101C0
+P 300 3200
+F 0 "D?" H 293 3417 50  0000 C CNN
+F 1 "LED" H 293 3326 50  0000 C CNN
+F 2 "" H 300 3200 50  0001 C CNN
+F 3 "~" H 300 3200 50  0001 C CNN
+	1    300  3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F710C9A
+P -100 3500
+F 0 "D?" H -107 3717 50  0000 C CNN
+F 1 "LED" H -107 3626 50  0000 C CNN
+F 2 "" H -100 3500 50  0001 C CNN
+F 3 "~" H -100 3500 50  0001 C CNN
+	1    -100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F710CA0
+P 5500 2350
+F 0 "D?" H 5493 2567 50  0000 C CNN
+F 1 "LED" H 5493 2476 50  0000 C CNN
+F 2 "" H 5500 2350 50  0001 C CNN
+F 3 "~" H 5500 2350 50  0001 C CNN
+	1    5500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F710D36
+P 2750 3600
+F 0 "R?" H 2820 3646 50  0000 L CNN
+F 1 "R" H 2820 3555 50  0000 L CNN
+F 2 "" V 2680 3600 50  0001 C CNN
+F 3 "~" H 2750 3600 50  0001 C CNN
+	1    2750 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F711FBB
+P 3350 1300
+F 0 "R?" H 3420 1346 50  0000 L CNN
+F 1 "R" H 3420 1255 50  0000 L CNN
+F 2 "" V 3280 1300 50  0001 C CNN
+F 3 "~" H 3350 1300 50  0001 C CNN
+	1    3350 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F712845
+P 3350 750
+F 0 "R?" H 3420 796 50  0000 L CNN
+F 1 "R" H 3420 705 50  0000 L CNN
+F 2 "" V 3280 750 50  0001 C CNN
+F 3 "~" H 3350 750 50  0001 C CNN
+	1    3350 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F71284B
+P 5200 2350
+F 0 "R?" H 5270 2396 50  0000 L CNN
+F 1 "R" H 5270 2305 50  0000 L CNN
+F 2 "" V 5130 2350 50  0001 C CNN
+F 3 "~" H 5200 2350 50  0001 C CNN
+	1    5200 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F714EAA
+P -250 4550
+F 0 "R?" H -180 4596 50  0000 L CNN
+F 1 "R" H -180 4505 50  0000 L CNN
+F 2 "" V -320 4550 50  0001 C CNN
+F 3 "~" H -250 4550 50  0001 C CNN
+	1    -250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F714EB0
+P 50 4600
+F 0 "R?" H 120 4646 50  0000 L CNN
+F 1 "R" H 120 4555 50  0000 L CNN
+F 2 "" V -20 4600 50  0001 C CNN
+F 3 "~" H 50  4600 50  0001 C CNN
+	1    50   4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F714EB6
+P 250 4600
+F 0 "R?" H 320 4646 50  0000 L CNN
+F 1 "R" H 320 4555 50  0000 L CNN
+F 2 "" V 180 4600 50  0001 C CNN
+F 3 "~" H 250 4600 50  0001 C CNN
+	1    250  4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F714EBC
+P 3350 2650
+F 0 "R?" H 3420 2696 50  0000 L CNN
+F 1 "R" H 3420 2605 50  0000 L CNN
+F 2 "" V 3280 2650 50  0001 C CNN
+F 3 "~" H 3350 2650 50  0001 C CNN
+	1    3350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F71564A
+P 250 5050
+F 0 "R?" H 320 5096 50  0000 L CNN
+F 1 "R" H 320 5005 50  0000 L CNN
+F 2 "" V 180 5050 50  0001 C CNN
+F 3 "~" H 250 5050 50  0001 C CNN
+	1    250  5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F715650
+P 450 5050
+F 0 "R?" H 520 5096 50  0000 L CNN
+F 1 "R" H 520 5005 50  0000 L CNN
+F 2 "" V 380 5050 50  0001 C CNN
+F 3 "~" H 450 5050 50  0001 C CNN
+	1    450  5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5F7199C6
+P 6700 5500
+F 0 "J?" H 6750 5917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 6750 5826 50  0000 C CNN
+F 2 "" H 6700 5500 50  0001 C CNN
+F 3 "~" H 6700 5500 50  0001 C CNN
+	1    6700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F733C74
+P 7000 5500
+F 0 "#PWR?" H 7000 5250 50  0001 C CNN
+F 1 "GND" V 7005 5372 50  0000 R CNN
+F 2 "" H 7000 5500 50  0001 C CNN
+F 3 "" H 7000 5500 50  0001 C CNN
+	1    7000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5F735051
+P 7000 5700
+F 0 "#PWR?" H 7000 5800 50  0001 C CNN
+F 1 "-12V" V 7015 5828 50  0000 L CNN
+F 2 "" H 7000 5700 50  0001 C CNN
+F 3 "" H 7000 5700 50  0001 C CNN
+	1    7000 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F7372D7
+P 7000 5300
+F 0 "#PWR?" H 7000 5150 50  0001 C CNN
+F 1 "+12V" V 7015 5428 50  0000 L CNN
+F 2 "" H 7000 5300 50  0001 C CNN
+F 3 "" H 7000 5300 50  0001 C CNN
+	1    7000 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F738BC1
+P 2300 4350
+F 0 "#PWR?" H 2300 4100 50  0001 C CNN
+F 1 "GND" V 2305 4222 50  0000 R CNN
+F 2 "" H 2300 4350 50  0001 C CNN
+F 3 "" H 2300 4350 50  0001 C CNN
+	1    2300 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5F73ACFC
+P 3650 1750
+F 0 "#PWR?" H 3650 1850 50  0001 C CNN
+F 1 "-12V" V 3665 1878 50  0000 L CNN
+F 2 "" H 3650 1750 50  0001 C CNN
+F 3 "" H 3650 1750 50  0001 C CNN
+	1    3650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F73C02F
+P 5100 1800
+F 0 "#PWR?" H 5100 1650 50  0001 C CNN
+F 1 "+12V" V 5115 1928 50  0000 L CNN
+F 2 "" H 5100 1800 50  0001 C CNN
+F 3 "" H 5100 1800 50  0001 C CNN
+	1    5100 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F73C868
+P 3050 1750
+F 0 "#PWR?" H 3050 1600 50  0001 C CNN
+F 1 "+12V" V 3065 1878 50  0000 L CNN
+F 2 "" H 3050 1750 50  0001 C CNN
+F 3 "" H 3050 1750 50  0001 C CNN
+	1    3050 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F748571
+P 4750 2550
+F 0 "#PWR?" H 4750 2400 50  0001 C CNN
+F 1 "+12V" V 4765 2678 50  0000 L CNN
+F 2 "" H 4750 2550 50  0001 C CNN
+F 3 "" H 4750 2550 50  0001 C CNN
+	1    4750 2550
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
