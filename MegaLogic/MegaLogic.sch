@@ -467,19 +467,19 @@ Text Notes 10550 750  0    157  ~ 31
 TODO
 Text Notes 9150 3050 0    118  ~ 24
 XY Coordinate Joystick
-Text GLabel -4000 3350 1    50   Input ~ 0
+Text GLabel -5450 3950 0    50   Input ~ 0
 Input1
-Text GLabel -3150 3550 1    50   Input ~ 0
+Text GLabel -5450 4850 0    50   Input ~ 0
 Input2
-Text GLabel -2250 3800 1    50   Input ~ 0
+Text GLabel -5400 5750 0    50   Input ~ 0
 Input3
-Text GLabel -2550 2100 0    50   Input ~ 0
+Text GLabel -5400 6650 0    50   Input ~ 0
 Input4
-Text GLabel -3050 2100 0    50   Input ~ 0
+Text GLabel -5400 7550 0    50   Input ~ 0
 Input5
-Text GLabel -3550 2100 0    50   Input ~ 0
+Text GLabel -5400 8450 0    50   Input ~ 0
 Input6
-Text GLabel -4050 2100 0    50   Input ~ 0
+Text GLabel -5400 9350 0    50   Input ~ 0
 Input7
 $Comp
 L power:GND #PWR?
@@ -492,8 +492,6 @@ F 3 "" H -2400 400 50  0001 C CNN
 	1    -2400 400 
 	1    0    0    -1  
 $EndComp
-Text GLabel -2950 3850 2    50   Input ~ 0
-V+
 Text GLabel -3650 700  2    50   Input ~ 0
 Xact1
 Text GLabel -3650 800  2    50   Input ~ 0
@@ -512,7 +510,7 @@ Text GLabel -4450 1350 2    50   Input ~ 0
 Xact8
 Text GLabel -1350 1800 2    50   Input ~ 0
 V+
-Text GLabel -4550 2100 0    50   Input ~ 0
+Text GLabel -5400 9900 0    50   Input ~ 0
 Input8
 Text GLabel -1350 2600 2    50   Input ~ 0
 >1
@@ -547,26 +545,26 @@ Text GLabel -3300 2600 2    50   Input ~ 0
 $Comp
 L Transistor_BJT:BC557 Q?
 U 1 1 5F6BE413
-P -3550 3750
-F 0 "Q?" V -3600 3600 50  0000 C CNN
-F 1 "BC557" V -3350 3750 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H -3350 3675 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -3550 3750 50  0001 L CNN
-	1    -3550 3750
-	0    -1   1    0   
+P -4700 3550
+F 0 "Q?" V -4750 3400 50  0000 C CNN
+F 1 "BC557" V -4500 3550 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 3475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4700 3550 50  0001 L CNN
+	1    -4700 3550
+	0    1    -1   0   
 $EndComp
 $Comp
 L Transistor_BJT:BC547 Q?
 U 1 1 5F6C06FE
-P -4000 3550
-F 0 "Q?" V -4000 3700 50  0000 C CNN
-F 1 "BC547" V -3800 3550 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H -3800 3475 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4000 3550 50  0001 L CNN
-	1    -4000 3550
-	0    1    1    0   
+P -4700 3950
+F 0 "Q?" V -4700 4100 50  0000 C CNN
+F 1 "BC547" V -4500 3950 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 3875 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4700 3950 50  0001 L CNN
+	1    -4700 3950
+	0    -1   1    0   
 $EndComp
-Text GLabel -4200 3650 0    50   Input ~ 0
+Text GLabel -4500 3250 1    50   Input ~ 0
 Count1
 $Comp
 L Transistor_BJT:BC557 Q?
@@ -581,81 +579,12 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -1750 3100 50  0001 L CNN
 $EndComp
 Text GLabel -2100 3150 0    50   Input ~ 0
 V+
-Text GLabel -3800 3650 2    50   Input ~ 0
+Text GLabel -5150 4150 0    50   Input ~ 0
 V+
 Text GLabel -4650 1050 0    50   Input ~ 0
 Input8
-$Comp
-L Transistor_BJT:BC547 Q?
-U 1 1 5F77348B
-P -3150 3750
-F 0 "Q?" V -3150 3900 50  0000 C CNN
-F 1 "BC547" V -2950 3750 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H -2950 3675 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -3150 3750 50  0001 L CNN
-	1    -3150 3750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-4000 3350 -3550 3350
-Wire Wire Line
-	-3550 3350 -3550 3550
-Wire Wire Line
-	-3750 3850 -4200 3850
-Text GLabel -4200 4850 0    50   Input ~ 0
+Text GLabel -4200 3250 1    50   Input ~ 0
 Count2
-$Comp
-L Transistor_BJT:BC547 Q?
-U 1 1 5F7809F7
-P -4000 4750
-F 0 "Q?" V -4000 4900 50  0000 C CNN
-F 1 "BC547" V -3800 4750 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H -3800 4675 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4000 4750 50  0001 L CNN
-	1    -4000 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-3350 4150 -3350 4850
-Wire Wire Line
-	-3350 4850 -3800 4850
-Text GLabel -4000 4550 1    50   Input ~ 0
-Input1
-$Comp
-L Transistor_BJT:BC557 Q?
-U 1 1 5F79BF92
-P -2650 4000
-F 0 "Q?" V -2700 3850 50  0000 C CNN
-F 1 "BC557" V -2450 4000 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H -2450 3925 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -2650 4000 50  0001 L CNN
-	1    -2650 4000
-	0    -1   1    0   
-$EndComp
-$Comp
-L Transistor_BJT:BC547 Q?
-U 1 1 5F79BF98
-P -2250 4000
-F 0 "Q?" V -2250 4150 50  0000 C CNN
-F 1 "BC547" V -2050 4000 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H -2050 3925 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -2250 4000 50  0001 L CNN
-	1    -2250 4000
-	0    1    1    0   
-$EndComp
-Text GLabel -2050 4100 2    50   Input ~ 0
-V+
-Wire Wire Line
-	-3150 3550 -2650 3550
-Wire Wire Line
-	-2650 3550 -2650 3800
-Wire Wire Line
-	-4200 3650 -4200 3850
-Wire Wire Line
-	-2850 4100 -3350 4100
-Wire Wire Line
-	-3350 4100 -3350 3850
-Connection ~ -3350 3850
 $Comp
 L 4xxx:4070 U?
 U 1 1 5F7D0096
@@ -764,4 +693,428 @@ Wire Notes Line
 	4500 4800 4500 3550
 Wire Notes Line
 	2200 3550 2200 4800
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F64BE2F
+P -5250 3950
+F 0 "Q?" H -5350 3850 50  0000 C CNN
+F 1 "BC547" V -5050 3950 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5050 3875 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5250 3950 50  0001 L CNN
+	1    -5250 3950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	-4500 3250 -4500 3450
+Wire Wire Line
+	-5150 3750 -5150 3250
+Wire Wire Line
+	-5150 3250 -4500 3250
+Wire Wire Line
+	-5150 3750 -4700 3750
+Connection ~ -5150 3750
+Wire Wire Line
+	-4900 3450 -4900 4050
+Connection ~ -4700 3750
+Text GLabel -5150 5050 0    50   Input ~ 0
+V+
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F65FC69
+P -5250 4850
+F 0 "Q?" H -5350 4750 50  0000 C CNN
+F 1 "BC547" V -5050 4850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5050 4775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5250 4850 50  0001 L CNN
+	1    -5250 4850
+	1    0    0    1   
+$EndComp
+Text GLabel -5100 5950 0    50   Input ~ 0
+V+
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F669C50
+P -5200 5750
+F 0 "Q?" H -5300 5650 50  0000 C CNN
+F 1 "BC547" V -5000 5750 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5000 5675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5200 5750 50  0001 L CNN
+	1    -5200 5750
+	1    0    0    1   
+$EndComp
+Text GLabel -5100 6850 0    50   Input ~ 0
+V+
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F66B5F1
+P -5200 6650
+F 0 "Q?" H -5300 6550 50  0000 C CNN
+F 1 "BC547" V -5000 6650 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5000 6575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5200 6650 50  0001 L CNN
+	1    -5200 6650
+	1    0    0    1   
+$EndComp
+Text GLabel -5100 7750 0    50   Input ~ 0
+V+
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F66CBBE
+P -5200 7550
+F 0 "Q?" H -5300 7450 50  0000 C CNN
+F 1 "BC547" V -5000 7550 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5000 7475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5200 7550 50  0001 L CNN
+	1    -5200 7550
+	1    0    0    1   
+$EndComp
+Text GLabel -5100 8650 0    50   Input ~ 0
+V+
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F66DC63
+P -5200 8450
+F 0 "Q?" H -5300 8350 50  0000 C CNN
+F 1 "BC547" V -5000 8450 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5000 8375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5200 8450 50  0001 L CNN
+	1    -5200 8450
+	1    0    0    1   
+$EndComp
+Text GLabel -5100 9550 0    50   Input ~ 0
+V+
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F6737AC
+P -5200 9350
+F 0 "Q?" H -5300 9250 50  0000 C CNN
+F 1 "BC547" V -5000 9350 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5000 9275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5200 9350 50  0001 L CNN
+	1    -5200 9350
+	1    0    0    1   
+$EndComp
+Text GLabel -5100 10100 0    50   Input ~ 0
+V+
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F6737B3
+P -5200 9900
+F 0 "Q?" H -5300 9800 50  0000 C CNN
+F 1 "BC547" V -5000 9900 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -5000 9825 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -5200 9900 50  0001 L CNN
+	1    -5200 9900
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F67A8BE
+P -4700 4850
+F 0 "Q?" V -4700 5000 50  0000 C CNN
+F 1 "BC547" V -4500 4850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 4775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4700 4850 50  0001 L CNN
+	1    -4700 4850
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F67BB13
+P -4700 4450
+F 0 "Q?" V -4750 4300 50  0000 C CNN
+F 1 "BC557" V -4500 4450 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 4375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4700 4450 50  0001 L CNN
+	1    -4700 4450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	-5150 4650 -4700 4650
+Connection ~ -4700 4650
+Wire Wire Line
+	-4500 4350 -4500 4200
+Wire Wire Line
+	-4500 4200 -4900 4200
+Wire Wire Line
+	-4900 4200 -4900 4050
+Connection ~ -4900 4050
+Wire Wire Line
+	-4900 4200 -5150 4200
+Wire Wire Line
+	-5150 4200 -5150 4650
+Connection ~ -4900 4200
+Connection ~ -5150 4650
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F68FDBB
+P -4700 5750
+F 0 "Q?" V -4700 5900 50  0000 C CNN
+F 1 "BC547" V -4500 5750 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 5675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4700 5750 50  0001 L CNN
+	1    -4700 5750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	-4900 4950 -4900 4350
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F68E3CA
+P -4700 5350
+F 0 "Q?" V -4750 5200 50  0000 C CNN
+F 1 "BC557" V -4500 5350 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 5275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4700 5350 50  0001 L CNN
+	1    -4700 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F6A4692
+P -4200 4250
+F 0 "Q?" V -4200 4400 50  0000 C CNN
+F 1 "BC547" V -4000 4250 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4000 4175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4200 4250 50  0001 L CNN
+	1    -4200 4250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F6A4698
+P -4200 3850
+F 0 "Q?" V -4250 3700 50  0000 C CNN
+F 1 "BC557" V -4000 3850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4000 3775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4200 3850 50  0001 L CNN
+	1    -4200 3850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F6A65DF
+P -4700 6650
+F 0 "Q?" V -4700 6800 50  0000 C CNN
+F 1 "BC547" V -4500 6650 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 6575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4700 6650 50  0001 L CNN
+	1    -4700 6650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F6A65E5
+P -4700 6250
+F 0 "Q?" V -4750 6100 50  0000 C CNN
+F 1 "BC557" V -4500 6250 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 6175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4700 6250 50  0001 L CNN
+	1    -4700 6250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F6A7E84
+P -4700 7550
+F 0 "Q?" V -4700 7700 50  0000 C CNN
+F 1 "BC547" V -4500 7550 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 7475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4700 7550 50  0001 L CNN
+	1    -4700 7550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F6A7E8A
+P -4700 7150
+F 0 "Q?" V -4750 7000 50  0000 C CNN
+F 1 "BC557" V -4500 7150 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 7075 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4700 7150 50  0001 L CNN
+	1    -4700 7150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F6A9D9F
+P -4700 8450
+F 0 "Q?" V -4700 8600 50  0000 C CNN
+F 1 "BC547" V -4500 8450 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 8375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4700 8450 50  0001 L CNN
+	1    -4700 8450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F6A9DA5
+P -4700 8050
+F 0 "Q?" V -4750 7900 50  0000 C CNN
+F 1 "BC557" V -4500 8050 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 7975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4700 8050 50  0001 L CNN
+	1    -4700 8050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F6AB9DE
+P -4700 9350
+F 0 "Q?" V -4700 9500 50  0000 C CNN
+F 1 "BC547" V -4500 9350 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 9275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4700 9350 50  0001 L CNN
+	1    -4700 9350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F6AB9E4
+P -4700 8950
+F 0 "Q?" V -4750 8800 50  0000 C CNN
+F 1 "BC557" V -4500 8950 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4500 8875 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4700 8950 50  0001 L CNN
+	1    -4700 8950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	-5100 5550 -4700 5550
+Connection ~ -4700 5550
+Wire Wire Line
+	-5100 6450 -4700 6450
+Connection ~ -4700 6450
+Wire Wire Line
+	-5100 7350 -4700 7350
+Connection ~ -4700 7350
+Wire Wire Line
+	-5100 8250 -4700 8250
+Connection ~ -4700 8250
+Wire Wire Line
+	-5100 9150 -4700 9150
+Connection ~ -4700 9150
+Wire Wire Line
+	-4900 5250 -4900 5850
+Wire Wire Line
+	-4900 6150 -4900 6750
+Wire Wire Line
+	-4900 7050 -4900 7650
+Wire Wire Line
+	-4900 7950 -4900 8550
+Wire Wire Line
+	-4900 8850 -4900 9450
+Wire Wire Line
+	-4500 5250 -4500 5100
+Wire Wire Line
+	-4500 5100 -4900 5100
+Wire Wire Line
+	-4900 5100 -4900 4950
+Connection ~ -4900 4950
+Wire Wire Line
+	-4500 6150 -4500 6000
+Wire Wire Line
+	-4500 6000 -4900 6000
+Wire Wire Line
+	-4900 6000 -4900 5850
+Connection ~ -4900 5850
+Wire Wire Line
+	-4500 7050 -4500 6900
+Wire Wire Line
+	-4500 6900 -4900 6900
+Wire Wire Line
+	-4900 6900 -4900 6750
+Connection ~ -4900 6750
+Wire Wire Line
+	-4500 7950 -4500 7800
+Wire Wire Line
+	-4500 7800 -4900 7800
+Wire Wire Line
+	-4900 7800 -4900 7650
+Connection ~ -4900 7650
+Wire Wire Line
+	-4500 8850 -4500 8700
+Wire Wire Line
+	-4500 8700 -4900 8700
+Wire Wire Line
+	-4900 8700 -4900 8550
+Connection ~ -4900 8550
+Wire Wire Line
+	-5100 9700 -4900 9700
+Wire Wire Line
+	-4900 9700 -4900 9450
+Connection ~ -4900 9450
+Wire Wire Line
+	-4400 4350 -4400 3750
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F70B9D9
+P -2550 4100
+F 0 "Q?" V -2600 3950 50  0000 C CNN
+F 1 "BC557" V -2350 4100 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -2350 4025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -2550 4100 50  0001 L CNN
+	1    -2550 4100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F70E47B
+P -2550 4500
+F 0 "Q?" V -2550 4650 50  0000 C CNN
+F 1 "BC547" V -2350 4500 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -2350 4425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -2550 4500 50  0001 L CNN
+	1    -2550 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q?
+U 1 1 5F7182BF
+P -4200 4750
+F 0 "Q?" V -4250 4600 50  0000 C CNN
+F 1 "BC557" V -4000 4750 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4000 4675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H -4200 4750 50  0001 L CNN
+	1    -4200 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F7182C5
+P -4200 5150
+F 0 "Q?" V -4200 5300 50  0000 C CNN
+F 1 "BC547" V -4000 5150 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H -4000 5075 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H -4200 5150 50  0001 L CNN
+	1    -4200 5150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	-4500 3600 -4200 3600
+Wire Wire Line
+	-4200 3600 -4200 3250
+Wire Wire Line
+	-4500 3600 -4500 4050
+Wire Wire Line
+	-4000 3750 -4000 3600
+Wire Wire Line
+	-4000 3600 -4200 3600
+Connection ~ -4200 3600
+Wire Wire Line
+	-4400 4650 -4400 5250
+Wire Wire Line
+	-4000 4650 -4000 4500
+Wire Wire Line
+	-4000 4500 -4400 4500
+Wire Wire Line
+	-4400 4500 -4400 4350
+Connection ~ -4400 4350
+Wire Wire Line
+	-4500 4950 -4200 4950
+Connection ~ -4200 4950
+Wire Wire Line
+	-4500 4050 -4200 4050
+Connection ~ -4500 4050
+Connection ~ -4200 4050
 $EndSCHEMATC
