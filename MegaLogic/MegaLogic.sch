@@ -1006,8 +1006,6 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 13300 2300 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	13000 750  13000 1200
-Wire Wire Line
 	13500 900  13500 750 
 Wire Wire Line
 	13100 1800 13100 2400
@@ -1023,7 +1021,6 @@ Wire Wire Line
 Connection ~ 13300 2100
 Wire Wire Line
 	13000 1200 13300 1200
-Connection ~ 13000 1200
 Connection ~ 13300 1200
 Text Notes 12750 1250 0    50   ~ 10
 A1
@@ -1641,12 +1638,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 600  13000 450 
 Wire Wire Line
-	12350 900  12350 450 
-Wire Wire Line
 	12350 450  13000 450 
-Connection ~ 12350 900 
-Wire Wire Line
-	13500 1500 13500 1050
 Wire Wire Line
 	13500 1050 14000 1050
 Wire Wire Line
@@ -1667,7 +1659,6 @@ Wire Wire Line
 	15500 2250 16000 2250
 Wire Wire Line
 	13500 1500 13800 1500
-Connection ~ 13500 1500
 Connection ~ 13800 1500
 Wire Wire Line
 	13500 2400 13800 2400
@@ -1886,7 +1877,7 @@ Wire Wire Line
 Connection ~ 15000 3300
 Connection ~ 15100 2850
 Wire Notes Line
-	11750 400  16350 400 
+	11750 -1250 16350 -1250
 Wire Notes Line
 	16350 400  16350 7300
 Wire Notes Line
@@ -3392,4 +3383,148 @@ Wire Wire Line
 	-2850 2850 -2750 2850
 Connection ~ -2850 3300
 Connection ~ -2750 2850
+$Comp
+L Connector:AudioJack2_SwitchT J?
+U 1 1 5F6FE61C
+P 13200 -750
+F 0 "J?" V 13186 -562 50  0000 L CNN
+F 1 "AudioJack2_SwitchT" V 13277 -562 50  0000 L CNN
+F 2 "" H 13200 -750 50  0001 C CNN
+F 3 "~" H 13200 -750 50  0001 C CNN
+	1    13200 -750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F75F938
+P 12750 -700
+F 0 "D?" V 12697 -620 50  0000 L CNN
+F 1 "LED" V 12788 -620 50  0000 L CNN
+F 2 "" H 12750 -700 50  0001 C CNN
+F 3 "~" H 12750 -700 50  0001 C CNN
+	1    12750 -700
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5F7C7DD5
+P 13000 100
+F 0 "Q?" V 12950 250 50  0000 C CNN
+F 1 "BC547" V 13200 100 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 13200 25  50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 13000 100 50  0001 L CNN
+	1    13000 100 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8578AF
+P 13200 150
+F 0 "R?" H 13270 196 50  0000 L CNN
+F 1 "15k" V 13200 50  50  0000 L CNN
+F 2 "" V 13130 150 50  0001 C CNN
+F 3 "~" H 13200 150 50  0001 C CNN
+	1    13200 150 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F91CAF6
+P 12750 -400
+F 0 "R?" H 12820 -354 50  0000 L CNN
+F 1 "1.2k" V 12750 -500 50  0000 L CNN
+F 2 "" V 12680 -400 50  0001 C CNN
+F 3 "~" H 12750 -400 50  0001 C CNN
+	1    12750 -400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F94D7F7
+P 13200 -400
+F 0 "R?" H 13270 -354 50  0000 L CNN
+F 1 "1.2k" V 13200 -500 50  0000 L CNN
+F 2 "" V 13130 -400 50  0001 C CNN
+F 3 "~" H 13200 -400 50  0001 C CNN
+	1    13200 -400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 0    13200 -250
+Wire Wire Line
+	13200 -250 12750 -250
+Connection ~ 13200 -250
+Connection ~ 13200 0   
+Wire Wire Line
+	13200 300  13000 300 
+Wire Wire Line
+	13000 300  13000 450 
+Connection ~ 13000 300 
+Connection ~ 13000 450 
+Text GLabel 12800 0    0    50   Input ~ 0
+V+
+$Comp
+L power:GND #PWR?
+U 1 1 5FB987E7
+P 13300 -550
+F 0 "#PWR?" H 13300 -800 50  0001 C CNN
+F 1 "GND" V 13305 -678 50  0000 R CNN
+F 2 "" H 13300 -550 50  0001 C CNN
+F 3 "" H 13300 -550 50  0001 C CNN
+	1    13300 -550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB9BF51
+P 12750 -850
+F 0 "#PWR?" H 12750 -1100 50  0001 C CNN
+F 1 "GND" V 12755 -978 50  0000 R CNN
+F 2 "" H 12750 -850 50  0001 C CNN
+F 3 "" H 12750 -850 50  0001 C CNN
+	1    12750 -850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FBFD367
+P 12350 600
+F 0 "D?" V 12304 680 50  0000 L CNN
+F 1 "D" V 12395 680 50  0000 L CNN
+F 2 "" H 12350 600 50  0001 C CNN
+F 3 "~" H 12350 600 50  0001 C CNN
+	1    12350 600 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12350 900  12350 750 
+Connection ~ 12350 900 
+$Comp
+L Device:D D?
+U 1 1 5FC93CF3
+P 13000 900
+F 0 "D?" V 12954 980 50  0000 L CNN
+F 1 "D" V 13045 980 50  0000 L CNN
+F 2 "" H 13000 900 50  0001 C CNN
+F 3 "~" H 13000 900 50  0001 C CNN
+	1    13000 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13000 1050 13000 1200
+Connection ~ 13000 1200
+$Comp
+L Device:D D?
+U 1 1 5FCF6EE0
+P 13500 1200
+F 0 "D?" V 13454 1280 50  0000 L CNN
+F 1 "D" V 13545 1280 50  0000 L CNN
+F 2 "" H 13500 1200 50  0001 C CNN
+F 3 "~" H 13500 1200 50  0001 C CNN
+	1    13500 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13500 1350 13500 1500
+Connection ~ 13500 1500
 $EndSCHEMATC
